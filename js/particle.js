@@ -1,6 +1,6 @@
 class Particle {
   constructor() {
-    this.pos = createVector(width / 2, height / 2);
+    this.pos = createVector(sceneW / 2, height / 2);
     this.rays = [];
     this.heading = 0;
     for (let a = -(fov/2); a < (fov/2); a += 1) {
